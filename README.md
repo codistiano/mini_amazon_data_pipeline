@@ -23,11 +23,11 @@ A focused MERN-based ETL pipeline for scraping Amazon product data (via Scraping
       - SCRAPINGBEE_API_KEY=...
 3. Install
     - cd backend && npm install
-    - cd ../frontend && npm install
+    - cd frontend && npm install
 4. Start services
     - Start MongoDB (local or container)
     - Start the backend: `cd backend && npm run dev`
-    - Start the frontend: `cd ../frontend && npm run dev`
+    - Start the frontend: `cd frontend && npm run dev`
 
 
 ## ETL flow (high level overview)
