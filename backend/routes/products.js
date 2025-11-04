@@ -52,7 +52,6 @@ productsRouter.post("/scrape", async (req, res) => {
 // for singe product using ASIN
 productsRouter.post("/scrape-asin", async (req, res) => {
   const { asin } = req.body;
-  console.log(asin)
   if (!asin || !/^[A-Z0-9]{10}$/.test(asin)) {
     return res.status(400).json({ error: "Valid 10-char ASIN required" });
   }
