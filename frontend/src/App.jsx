@@ -69,7 +69,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Amazon Price Tracker</h1>
+        <h1>Amazon Products Tracker</h1>
 
         <div className="search-container">
           <input
